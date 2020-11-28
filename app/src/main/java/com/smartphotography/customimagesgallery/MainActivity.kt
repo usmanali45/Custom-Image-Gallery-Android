@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(Intent(this, Gallery::class.java))
             }
             else{
-                showSnackBar(it, Manifest.permission.READ_EXTERNAL_STORAGE,"Please grant the permissions.")
+                showSnackBar(it, Manifest.permission.READ_EXTERNAL_STORAGE,"Please grant the required permissions.")
             }
         }
     }
